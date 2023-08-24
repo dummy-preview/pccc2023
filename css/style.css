@@ -1264,7 +1264,6 @@ li.menu-item.current-menu-item {
     position: relative;
     padding-top: 50px;
     padding-bottom: 100px;
-    display: none;
 }
 
 .galleri-obj1 {
@@ -4205,10 +4204,8 @@ footer {
         width: 100%;
     }
     .karya__content {
-        flex-direction: column;
-    }
-    .hadiah__content {
-        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 19px;
     }
     .juri__content {
         flex-direction: column;
@@ -4310,7 +4307,8 @@ footer {
         z-index: 0;
     }
     .karya__item {
-        margin: 15px auto;
+        margin: 10px auto;
+        width: 130px;
     }
     .karya-obj2 img {
         width: 110px;
@@ -4325,9 +4323,9 @@ footer {
         width: 42px;
     }
     .hadiah__item {
-        width: 168px;
-        margin: 50px auto;
-        margin-bottom: 50px;
+        width: 118px;
+        margin: 0px auto;
+        margin-bottom: 0px;
     }
     .juri-obj1 img {
         width: 160px;
@@ -4389,5 +4387,35 @@ footer {
     }
     .hero-d {
         display: none;
+    }
+    .karya__item h1 {
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .karya__item p {
+        font-size: 12px;
+    }
+    .karya2 img {
+        width: 95px;
+    }
+    .karya1 img {
+        width: 130px;
+    }
+    .hadiah__item h3 {
+        font-size: 16px;
+    }
+    .hadiah__item h4 {
+        font-size: 16px;
+    }
+    .hadiah__item--piala img {
+        width: 73.79px;
+    }
+    .hadiah__item--piala {
+        height: 146.14px;
+        padding-bottom: 10px;
+    }
+    .p-b2 {
+        margin-bottom: 85px;
     }
 }
